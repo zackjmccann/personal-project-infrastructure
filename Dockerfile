@@ -12,6 +12,5 @@ RUN /root/.cargo/bin/uv pip install --system --no-cache -r requirements.txt
 EXPOSE 5000
 
 COPY . .
-WORKDIR /src
 
 CMD ["flask", "run", "--debug"]
