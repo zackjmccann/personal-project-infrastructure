@@ -12,3 +12,5 @@ services:
     image: "redis:alpine"
     environment:
         - DEV_MODE=${DEV_MODE}
+        - REDIS_HOST=${REDIS_HOST}
+        - REDIS_PORT=${REDIS_PORT}

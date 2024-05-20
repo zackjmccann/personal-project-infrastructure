@@ -129,6 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+ppi-dev
 
 # Spyder project settings
 .spyderproject
@@ -161,3 +162,4 @@ cython_debug/
 # ENV
 .env
 .devcontainer
+commands.sh
